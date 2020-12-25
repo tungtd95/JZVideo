@@ -76,8 +76,8 @@ public class Fragment_1_Base extends Fragment implements View.OnClickListener {
         jzDataSource.looping = true;
         jzDataSource.currentUrlIndex = 2;
         jzDataSource.headerMap.put("key", "value");//header
-        mJzvdStd.setUp(jzDataSource
-                , JzvdStd.SCREEN_NORMAL);
+        mJzvdStd.setUp("https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
+                , "");
         Jzvd.PROGRESS_DRAG_RATE = 2f;//设置播放进度条手势滑动阻尼系数
         Glide.with(this).load(Urls.videoPosterList[0]).into(mJzvdStd.posterImageView);
     }

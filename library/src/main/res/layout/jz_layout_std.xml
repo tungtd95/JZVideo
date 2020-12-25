@@ -63,6 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="00:00"
+            android:layout_marginEnd="14dp"
             android:textColor="#ffffff" />
 
         <TextView
@@ -76,14 +77,6 @@
             android:textAlignment="center"
             android:textColor="#ffffff" />
 
-        <ImageView
-            android:id="@+id/fullscreen"
-            android:layout_width="52.5dp"
-            android:layout_height="fill_parent"
-            android:paddingLeft="14dp"
-            android:paddingRight="14dp"
-            android:scaleType="centerInside"
-            android:src="@drawable/jz_enlarge" />
     </LinearLayout>
 
     <ProgressBar
